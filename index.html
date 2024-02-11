@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi cronómetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>cronómetro</h1>
+    <p>Primer modelo de cronómetro simple, aplicando html, css y js.</p>
+    <main>
+        <div class="circulo">
+            <div class="reloj" id="reloj">00:00</div>
+            <div class="botones">
+                <div class="stop" onclick="stop()"></div>
+                <div class="pausa" id="pausa" onclick="playPause()"></div>
+            </div>
+        </div>
+
+        <div class="segundos" id="segundos"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
